@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/matrixbotz0/PETER-PARKER-BOT.git      
+    repo: https://github.com/Adheei/URL-Shortner-Bot-V2.git      
     branch: main
     envVars:
       - key: BOT_TOKEN 
@@ -20,6 +20,9 @@ services:
         sync: false 
       - key: ADMINS
         sync: false    
-      - key: 
+      - key: BOT_OWNER
         sync: false
+      - key: BITLY_API
+        sync: false
+
     autoDeploy: false 

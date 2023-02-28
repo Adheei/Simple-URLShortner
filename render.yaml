@@ -18,10 +18,8 @@ services:
         sync: false
       - key: DATABASE_URL 
         sync: false 
-      - key: PICS 
-        sync: false
       - key: ADMINS
         sync: false    
-      - key: LOG_CHANNEL
+      - key: 
         sync: false
     autoDeploy: false 
